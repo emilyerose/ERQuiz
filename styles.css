@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lavender;
+  }
+
+  :root {
+    --dark: darkslateblue;
+    --med: slateblue;
+    --light: aliceblue; 
+  }
+  
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewScores {
+    color: var(--med);
+    cursor: pointer;
+}
+
+main {
+    margin: 0 15vw;
+}
+.bigText {
+    text-align: center;
+}
+
+.smallText {
+    text-align: center;
+}
+
+.btnWrapper{
+    text-align: center;
+    display:block;
+}
+
+button{
+    background-color: var(--dark);
+    color: white;
+}
+button:hover{
+    background-color: var(--med);
+}
+
+.listItem{
+    font-size: 20px;
+    background-color: var(--dark);
+    color: var(--light);
+    margin: 10px;
+    border-radius: 6px;
+    cursor: default;
+}
+
+.listItem:hover {
+    background-color: var(--med);
+}
