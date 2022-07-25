@@ -57,3 +57,9 @@ button:hover{
 .listItem:hover {
     background-color: var(--med);
 }
+
+.answer {
+    color:rgb(136, 128, 188);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
