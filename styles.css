@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Public Sans', sans-serif;
     background-color: lavender;
   }
 
@@ -87,7 +87,7 @@ button:hover{
 }
 
 .scoresBtn:hover {
-    color: var(--med);
+    background-color: var(--med);
 }
 
 ol {
